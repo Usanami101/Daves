@@ -58,6 +58,11 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      fontFamily: {
+        display: ["'Press Start 2P'", "cursive"],
+        body: ["'Verdana'", "'Geneva'", "sans-serif"],
+        mono: ["'VT323'", "monospace"],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
